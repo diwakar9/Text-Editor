@@ -4,12 +4,13 @@ h1 {
     text-align: center;
     color: #130412;
     font-family: "Helvetica", sans-serif;
+    text-decoration: underline;
 }
     
 section {
     padding: 5%;
     padding-top: 0;
-    height: 100vh;
+    height: 79vh;
 }
     
 .side {
@@ -22,6 +23,7 @@ button {
     color: #0e0c0c !important;
     margin-bottom: 25px;
 }
+
 input{
     margin: 10px;
     border-color: #0f0f0f !important;
@@ -33,13 +35,12 @@ button:hover {
     background-color: #d8a71f !important;
 }
 
-.btnSave:hover {
-    background-color: #008000;
-    color: white;
+.btnSave {
+    background-color: #008000;    
   }
- .btnCancel:hover {
-    background-color: #FF0000;
-    color: white;
+
+.btnCancel {
+    background-color: #FF0000;    
   }
     
 textarea {
@@ -49,6 +50,6 @@ textarea {
 }
     
 .flex-box {
-    display: flex;
+    display: flex;    
     justify-content: center;
 }
