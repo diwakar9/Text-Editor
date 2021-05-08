@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Text Editor</title> 
+        <link rel="stylesheet" type="text/css" href="editor.css" media="screen"/>     
+    </head>
+    <body>
+        <section>
+            <h1 class="shadow-sm">Note Text Editor</h1>
+            <div class="flex-box">
+                <div class="row">
+                    <div class="col">
+                        <button type="button" 
+                                onclick="Bold()" 
+                                class=" shadow-sm btn btn-outline-secondary" 
+                                data-toggle="tooltip"
+                                data-placement="top" 
+                                title="Bold Text">
+                                Bold</button>
+                        <button type="button" 
+                                onclick="Italic()" 
+                                class="shadow-sm btn btn-outline-success" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Italic Text">
+                                Italic</button>
+                        <button type="button" 
+                                onclick="LeftAlign()" 
+                                class=" shadow-sm btn btn-outline-primary" 
+                                data-toggle="tooltip" 
+                                data-placement="top"
+                                title="Left Align">
+                                <i class="fas fa-align-left"></i></button>
+                        <button type="button" 
+                                onclick="CenterAlign()" 
+                                class="btn shadow-sm btn-outline-secondary" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Center Align">
+                                <i class="fas fa-align-center"></i></button>
+                        <button type="button" 
+                                onclick="RightAlign()" 
+                                class="btn shadow-sm btn-outline-primary" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Right Align">
+                                <i class="fas fa-align-right"></i></button>
+                        <button type="button" 
+                                onclick="UpperCase()" 
+                                class="btn shadow-sm btn-outline-secondary" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Uppercase Text">
+                                Upper Case</button>
+                        <button type="button" 
+                                onclick="LowerCase()" 
+                                class="btn shadow-sm btn-outline-primary" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Lowercase Text">
+                                Lower Case</button>
+                        <button type="button" 
+                                onclick="CapitalizeText()" 
+                                class="btn shadow-sm btn-outline-primary" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Capitalize Text">
+                                Capitalize</button>
+                        <button type="button" 
+                                onclick="ClearText()" 
+                                class="btn shadow-sm btn-outline-primary side" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Clear Text">
+                                Clear All</button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                </div>
+                <div class="col-md-6 col-sm-9">
+                    <div class="flex-box">
+                        <textarea 
+                        id="text2-0-2-1"
+                        rows="15" 
+                        cols="100"
+                        placeholder="Your text here...">                                                          
+                        </textarea>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <h6 style="text-align:center;">Diwakar Dhungana @2021</h6> 
+        <script src="editor.js"></script>
+    </body>
+</html>

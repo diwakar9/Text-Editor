@@ -1,0 +1,39 @@
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #130412;
+    font-family: "Helvetica", sans-serif;
+}
+    
+section {
+    padding: 5%;
+    padding-top: 0;
+    height: 100vh;
+}
+    
+.side {
+    margin-left: 0;
+}
+    
+button {
+    margin: 10px;
+    border-color: #0f0f0f !important;
+    color: #0e0c0c !important;
+    margin-bottom: 25px;
+}
+    
+button:hover {
+    background-color: #b7f39f !important;
+}
+    
+textarea {
+    padding: 5%;
+    border-color: #1e1527;
+    border-width: thin;
+}
+    
+.flex-box {
+    display: flex;
+    justify-content: center;
+}
