@@ -9,7 +9,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open editor.js",
-            "file": "C:\\Users\\Dell\\Documents\\Text Editor\\editor.html",       
+            "file": "C:\\Users\\Dell\\Documents\\Text Editor\\index.html",       
         }
     ]
 }

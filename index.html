@@ -7,69 +7,60 @@
     </head>
     <body>
         <section>
-            <h1 class="shadow-sm">Note Text Editor</h1>
+            <h1>Note Text Editor</h1>
             <div class="flex-box">
                 <div class="row">
                     <div class="col">
                         <button type="button" 
-                                onclick="Bold()" 
-                                class=" shadow-sm btn btn-outline-secondary" 
+                                onclick="Bold()"                                 
                                 data-toggle="tooltip"
                                 data-placement="top" 
                                 title="Bold Text">
                                 Bold</button>
                         <button type="button" 
-                                onclick="Italic()" 
-                                class="shadow-sm btn btn-outline-success" 
+                                onclick="Italic()"                                 
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="Italic Text">
                                 Italic</button>
                         <button type="button" 
-                                onclick="LeftAlign()" 
-                                class=" shadow-sm btn btn-outline-primary" 
+                                onclick="LeftAlign()"                                 
                                 data-toggle="tooltip" 
                                 data-placement="top"
                                 title="Left Align">
-                                <i class="fas fa-align-left"></i></button>
+                                Left Align</button>
                         <button type="button" 
-                                onclick="CenterAlign()" 
-                                class="btn shadow-sm btn-outline-secondary" 
+                                onclick="CenterAlign()"                                 
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="Center Align">
-                                <i class="fas fa-align-center"></i></button>
+                                Center Align</button>
                         <button type="button" 
-                                onclick="RightAlign()" 
-                                class="btn shadow-sm btn-outline-primary" 
+                                onclick="RightAlign()"                                
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="Right Align">
-                                <i class="fas fa-align-right"></i></button>
+                                Right Align</button>
                         <button type="button" 
-                                onclick="UpperCase()" 
-                                class="btn shadow-sm btn-outline-secondary" 
+                                onclick="UpperCase()"                                 
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="Uppercase Text">
                                 Upper Case</button>
                         <button type="button" 
-                                onclick="LowerCase()" 
-                                class="btn shadow-sm btn-outline-primary" 
+                                onclick="LowerCase()"                                 
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="Lowercase Text">
                                 Lower Case</button>
                         <button type="button" 
-                                onclick="CapitalizeText()" 
-                                class="btn shadow-sm btn-outline-primary" 
+                                onclick="CapitalizeText()"                                
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="Capitalize Text">
                                 Capitalize</button>
                         <button type="button" 
-                                onclick="ClearText()" 
-                                class="btn shadow-sm btn-outline-primary side" 
+                                onclick="ClearText()"                                 
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="Clear Text">
@@ -78,36 +69,31 @@
                 </div>
             </div>
             <br>
-            <div class="row">
-                <div class="col-md-3 col-sm-3">
-                </div>
-                <div class="col-md-6 col-sm-9">
-                    <div class="flex-box">
-                        <textarea 
-                        id="text2-0-2-1"
-                        rows="15" 
-                        cols="100"
-                        placeholder="Your text here...">                                                          
-                        </textarea>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                </div>
+            <div class="row">               
+                
+                <div class="flex-box">
+                    <textarea 
+                    id="text2-0-2-1"
+                    rows="15" 
+                    cols="100"
+                    placeholder="Your text here...">                                                          
+                    </textarea>
+                </div>               
+               
                 <div class="flex-box">
                 <input type="button"
                 value="Save"
-                        onclick="alert ('Note is Saved')"
-                        class="btn shadow-sm btn-outline-primary side"
+                        onclick="alert ('Note is Saved')"                        
                         data-toggle="tooltip"
                         data-placement="top"
                         title="Save Text">
                         <input type="button"
                         value="Cancel"
-                        onclick="alert ('Note Cancelled')"
-                        class="btn shadow-sm btn-outline-primary side"
+                        onclick="alert ('Note Cancelled')"                        
                         data-toggle="tooltip"
                         data-placement="top"
-                        title="Cancel Note"></div>
+                        title="Cancel Note">
+                </div>
             </div>
         </section>
         <br>
