@@ -30,8 +30,17 @@ input{
 }
     
 button:hover {
-    background-color: #b7f39f !important;
+    background-color: #d8a71f !important;
 }
+
+.btnSave:hover {
+    background-color: #008000;
+    color: white;
+  }
+ .btnCancel:hover {
+    background-color: #FF0000;
+    color: white;
+  }
     
 textarea {
     padding: 5%;
