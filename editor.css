@@ -22,6 +22,12 @@ button {
     color: #0e0c0c !important;
     margin-bottom: 25px;
 }
+input{
+    margin: 10px;
+    border-color: #0f0f0f !important;
+    color: #0e0c0c !important;
+    margin-bottom: 25px;
+}
     
 button:hover {
     background-color: #b7f39f !important;
