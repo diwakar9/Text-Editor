@@ -70,17 +70,10 @@
             </div>
             
             <div class="row">                           
-                <div class="flex-box">
-                        
-                        <textarea                     
-                        id="text2-0-2-1"
-                        rows="15"
-                        cols="100"
-                        placeholder="Your text here..." 
-                        >                                                                               
-                    </textarea>
-                
-                </div>                             
+                <div class="flex-box">                      
+                        <textarea name="name" id="text2-0-2-1" cols="100" rows="15" placeholder="Your Text Here..."></textarea>
+                </div>      
+                <form>                       
                 <div class="flex-box">
                 <input class="btnSave" type="button"
                 value="Save"
@@ -94,7 +87,14 @@
                         data-toggle="tooltip"
                         data-placement="top"
                         title="Cancel Note">
+                        <input  type="submit"
+                        value="Submit"
+                        onclick="alert ('Note Submitted')"                        
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Submit Text">
                 </div>
+        </form>
             </div>
         </section>
         <h6 style="text-align:center;">Diwakar Dhungana @2021</h6> 
